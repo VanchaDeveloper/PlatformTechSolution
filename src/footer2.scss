@@ -1,0 +1,62 @@
+@import "library/main";
+#footerSection {
+  background-color:$baseColor2;
+  color:$baseColor3;
+  padding-top:50px;
+  padding-bottom:50px;
+  }
+.footerDiv{
+    padding-top:20px;
+  }
+.footerSer a
+{
+  line-height:12px;
+  text-decoration:none;
+  color :$baseColor3;
+}
+.footerHead{
+  margin-bottom : 20px;
+}
+hr
+{
+  background-color:$baseColor3;
+}
+.paraTech
+{
+  text-align:justify;
+}
+.faIcon
+{
+  text-align:center;
+  font-size:40px;
+  margin-top:20px;
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom:20px;
+}
+.stay2{
+  display:flex;
+  justify-content:center;
+}
+
+.stay1{
+  text-align:center;
+  margin-top :30px;
+  margin-bottom:10px;
+}
+.footerSubmit
+{
+  color:$baseColor1;
+  background-color:$baseColor3;
+  border : 1px solid $baseColor3;
+  font-weight:bold;
+}
+.footerSubmit:hover
+{
+  color:$baseColor3;
+  background-color:$baseColor1;
+}
+.faIcon i:hover
+{
+  color:$baseColor1;
+}
